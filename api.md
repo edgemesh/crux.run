@@ -27,7 +27,11 @@ A JSON object of the following structure:
 | queryTime 	| datetime 	| The amount of time this query took server side (ms since 2000-01-01T00:00:00.000) 	|
 
 
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 	{
 	  "inDatabase": true,
 	  "monthCount": 6,
@@ -40,8 +44,12 @@ A JSON object of the following structure:
 	    "2019-06-30T00:00:00.000Z"
 	  ],
 	  "queryTime": "2000-01-01T00:00:00.011Z"
-	}
+  }
 ```
+</p>
+</details>
+
+
 
 # /summary
 `/summary` provides fast access to aggregated metrics (percentiles) for the given `domain`. The `/summary` path is not an actionable route but requires a subpath of one of `overview` (summary without any further pivot but month) , `connection` (summarize by connection speed), `form` (summarize by form factor) or `ssl` (summarize by https vs. http endpoints).
@@ -93,7 +101,12 @@ A JSON object of the following structure
 | domContentLoadedP99 	| [int] 	| The 99th percentile value for the DOM Loaded Paint metric starting bin for this month. This is the minimum starting bin where sum(density<=.99) 	|
 
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "queryTime": "2000-01-01T00:00:00.566Z",
   "date": [
@@ -255,7 +268,12 @@ A JSON object of the following structure
 | domContentLoadedP99 	| [int] 	| The 99th percentile value for the DOM Loaded Paint metric starting bin for this month. This is the minimum starting bin where sum(density<=.99) 	|
 
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "queryTime": "2000-01-01T00:00:00.345Z",
   "date": [
@@ -476,7 +494,12 @@ A JSON object of the following structure
 | domContentLoadedP95 	| [int] 	| The 95th percentile value for the DOM Loaded metric starting bin for this month. This is the minimum starting bin where sum(density<=.95) 	|
 | domContentLoadedP99 	| [int] 	| The 99th percentile value for the DOM Loaded Paint metric starting bin for this month. This is the minimum starting bin where sum(density<=.99) 	|
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "queryTime": "2000-01-01T00:00:00.529Z",
   "date": [
@@ -697,7 +720,12 @@ A JSON object of the following structure
 | domContentLoadedP95 	| [int] 	| The 95th percentile value for the DOM Loaded metric starting bin for this month. This is the minimum starting bin where sum(density<=.95) 	|
 | domContentLoadedP99 	| [int] 	| The 99th percentile value for the DOM Loaded Paint metric starting bin for this month. This is the minimum starting bin where sum(density<=.99) 	|
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "queryTime": "2000-01-01T00:00:00.280Z",
   "date": [
@@ -848,7 +876,12 @@ A JSON object of the following structure
 | average 	| [float] 	| The % of visitors (sum of density) that had a fast First Paint score of this record	|
 | slow 	| [float] 	| The % of visitors (sum of density) that had a fast First Paint score of this record	|
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "queryTime": "2000-01-01T00:00:00.146Z",
   "month": [
@@ -894,7 +927,12 @@ A JSON object of the following structure
 | average 	| [float] 	| The % of visitors (sum of density) that had a fast First Contentful Paint score of this record	|
 | slow 	| [float] 	| The % of visitors (sum of density) that had a fast First Contentful Paint score of this record	|
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "queryTime": "2000-01-01T00:00:00.146Z",
   "month": [
@@ -940,7 +978,12 @@ A JSON object of the following structure
 | average   | [float]   | The % of visitors (sum of density) that had a fast DOM Content Loaded score of this record  |
 | slow  | [float]   | The % of visitors (sum of density) that had a fast DOM Content Loaded score of this record  |
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "queryTime": "2000-01-01T00:00:00.155Z",
   "month": [
@@ -992,7 +1035,12 @@ A JSON object of the following structure
 | binStart 	| [int] 	| The array of starting bins for these records 	|
 | density 	| [float] 	| The array of density values for these records. The sum of density with month ~= .9901 	|
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "monthCount": 1,
   "minBinStart": 0,
@@ -1510,7 +1558,12 @@ A JSON object of the following structure
 | binStart  | [int]   | The array of starting bins for these records  |
 | density   | [float]   | The array of density values for these records. The sum of density with month ~= .9901   |
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "monthCount": 1,
   "minBinStart": 0,
@@ -2028,7 +2081,12 @@ A JSON object of the following structure
 | binStart  | [int]   | The array of starting bins for these records  |
 | density   | [float]   | The array of density values for these records. The sum of density with month ~= .9901   |
 
+
+<details><summary>Click to Expand Results</summary><p>
+
 ```json
+
+
 {
   "monthCount": 1,
   "minBinStart": 0,
