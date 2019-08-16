@@ -83,7 +83,6 @@ A JSON object of the following structure
 | firstContentfulPaintP90 	| [int] 	| The 90th percentile value for the First Contentful Paint metric starting bin for this month. This is the minimum starting bin where sum(density<=.90) 	|
 | firstContentfulPaintP95 	| [int] 	| The 95th percentile value for the First Contentful Paint metric starting bin for this month. This is the minimum starting bin where sum(density<=.95) 	|
 | firstContentfulPaintP99 	| [int] 	| The 99th percentile value for the First Contentful Paint metric starting bin for this month. This is the minimum starting bin where sum(density<=.99) 	|
-
 | domContentLoadedMAX 	| [int] 	| The maximum observed First Contentful Paint starting bin (milliseconds) for this month. For example a value of 1000 means that the maximum observed first paint in the field was between 1000-1100ms 	|
 | domContentLoadedWAVG 	| [int] 	| The weighted average of observed First Contenful Paint starting bin (milliseconds) for this month. This is the density wavg startingBin. 	|
 | domContentLoadedP25 	| [int] 	| The 25th percentile value for the DOM Loaded metric starting bin for this month. This is the minimum starting bin where sum(density<=.25) 	|
