@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUX.RUN</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="CRUX.RUN technology deep dive and documentation.">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta property="og:title" content="CRUX.RUN #WebPerf Analysis">
+  <meta property="og:site_name" content="CRUX.RUN">
+  <meta property="og:url" content="https://docs.crux.run">
+  <meta property="og:description" content="CrUX.run technology deep dive and documentation.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="_media/cruxLogo.png">
+  <link rel="stylesheet" href="_css/theme-simple.css">
+  <style>
+  :root {
+    --theme-color: #AE3661;
+    --cover-background-color: #000000;
+    --search-input-background-color: #DEDEDE;
+    --cover-blockquote-color: var(--theme-color);
+    --navbar-root-color: var(--cover-heading-color);
+    --cover-button-color: var(--cover-heading-color);
+    --cover-button-border: 1px solid var(--cover-heading-color);
+    --cover-background-image: radial-gradient(ellipse at center 115%, rgba(174, 54, 97, 0.5), transparent);
+    --link-color: var(--theme-color);
+  }
+  .input, .button {
+    border-radius: 4px!important;
+    box-shadow: var(--cover-button-primary-box-shadow, var(--cover-button-box-shadow))!important;
+    transition: var(--cover-button-primary-transition)!important;
+  }
+  .input {
+    background: var(--search-input-background-color)!important;
+    border: none!important;
+    width: 50%!important;
+    padding: 8px!important;
+    outline: none!important;
+  }
+  .button {
+    cursor: pointer!important;
+    padding: var(--cover-button-padding)!important;
+    color: var(--cover-button-primary-color)!important;
+    border: var(--cover-button-primary-border, var(--cover-button-border))!important;
+    background: var(--cover-button-primary-background, var(--cover-button-background))!important;
+    text-decoration: var(--cover-button-primary-text-decoration, var(--cover-button-text-decoration))!important;
+    text-decoration-color: var(--cover-button-primary-text-decoration-color, var(--cover-button-text-decoration-color))!important;
+
+  }
+  </style>
+  <script async type="text/javascript" src="https://static.edgeme.sh/client.js" onload="window.edgemesh = new Edgemesh()"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Crux.run',
+      nameLink: 'https://docs.crux.run',
+      repo: 'https://github.com/edgemesh/crux.run',
+      homepage: 'introduction.md',
+      logo: '_media/cruxLogo.svg',
+      coverpage: true,
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 2,
+      themeable: {
+        readyTransition : true,
+        responsiveTables: true
+      },
+      copyCode: {
+        buttonText : 'Copy to clipboard',
+        errorText  : 'Error',
+        successText: 'Copied'
+      },
+      search: [
+        '/',
+        '/introduction',
+        '/api',
+        '/about'
+      ],
+    }
+  </script>
+  <script src="_js/docsify.min.js"></script>
+  <script src="_js/docsify-themeable@0"></script>
+  <script src="_js/docsify-copy-code@2"></script>
+  <script src="_js/search.min.js"></script>
+  <script src="_js/emoji.min.js"></script>
+</body>
+</html>
