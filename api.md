@@ -219,6 +219,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 ## /summary/form
 `/summary/form` provides a breakdown of the aggregate metrics across by form factors for all network types for the given `domain` broken down by months where the number of months is specificed via `months`. The `months` parameter specifes how many months _back_ of data you would like. For example passing `months=2` will return data for the most recent 2 months and `months=6` will return data for the most recent 6 months.
@@ -446,6 +448,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 ## /summary/connection
 `/summary/connection` provides a breakdown of the aggregate metrics across all form factors but broken down by network types for the given `domain` broken down by months where the number of months is specificed via `months`. The `months` parameter specifes how many months _back_ of data you would like. For example passing `months=2` will return data for the most recent 2 months and `months=6` will return data for the most recent 6 months.
@@ -672,6 +676,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 ## /summary/ssl
 `/summary/ssl` provides a breakdown of the aggregate metrics across all form factors and all network types, but broken down by wether SSL was enabled for the given `domain` broken down by months where the number of months is specificed via `months`. The `months` parameter specifes how many months _back_ of data you would like. For example passing `months=2` will return data for the most recent 2 months and `months=6` will return data for the most recent 6 months.
@@ -842,6 +848,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 # /score
 `/score` provides a breakdown of the aggregate scores (fast/average/slow) for the given inputs. These boundaries are defined in the Google PageSpeed definitions. They are shown below (all times are in milliseconds):
@@ -902,6 +910,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 ## /score/fcp
 `/summary/fcp` provides a total percentage of visitors across all form factors and all network types, but broken down score of the First Contentful Paint for the given `domain`. This is further broken down by months where the number of months is specificed via `months`. The `months` parameter specifes how many months _back_ of data you would like. For example passing `months=2` will return data for the most recent 2 months and `months=6` will return data for the most recent 6 months.
@@ -953,6 +963,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 ## /score/dcl
 `/summary/dcl` provides a total percentage of visitors across all form factors and all network types, but broken down score of the DOM Content Loaded for the given `domain`. This is further broken down by months where the number of months is specificed via `months`. The `months` parameter specifes how many months _back_ of data you would like. For example passing `months=2` will return data for the most recent 2 months and `months=6` will return data for the most recent 6 months.
@@ -1004,6 +1016,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 # /histo
 `/histo` the histogram of a metric across all form factors and network connections. This histogram is summed up across all the default dimensions and represents the histogram of the site. We do limit the histogram length to the first element where the cummulative sum of the histogram is .9901 but we include the max for the observed samples (in the event they are not in the histogram itself).
@@ -1530,6 +1544,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 ## /histo/fcp
 `/histo/fcp` the histogram of First Contentful Paint observations across all form factors and network connections. This histogram is summed up across all the default dimensions and represents the histogram of the site. We do limit the histogram length to the first element where the cummulative sum of the histogram is .9901 but we include the max for the observed samples (in the event they are not in the histogram itself).
@@ -2053,6 +2069,8 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
 
 ## /histo/dcl
 `/histo/dcl` the histogram of DOM Content Loaded observations across all form factors and network connections. This histogram is summed up across all the default dimensions and represents the histogram of the site. We do limit the histogram length to the first element where the cummulative sum of the histogram is .9901 but we include the max for the observed samples (in the event they are not in the histogram itself).
@@ -2576,3 +2594,5 @@ A JSON object of the following structure
   ]
 }
 ```
+</p>
+</details>
