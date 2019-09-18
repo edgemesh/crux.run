@@ -19,12 +19,23 @@
     --cover-background-color: #000000;
     --search-input-background-color: #DEDEDE;
     --cover-blockquote-color: var(--theme-color);
-    --navbar-root-color: var(--cover-heading-color);
+    --navbar-root-color: rgba(174, 54, 97, 0.8);
+    --navbar-root-color--active: var(--theme-color);
+    --navbar-root-color--hover: var(--theme-color);
+    --sidebar-nav-link-before-color: var(--theme-color);
+    --sidebar-nav-pagelink-background-image--active: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='rgb%28231, 74, 96%29' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--loaded: var(--sidebar-nav-pagelink-background-image--active);
+    --sidebar-nav-pagelink-background-image--collapse: var(--sidebar-nav-pagelink-background-image--active);
     --cover-button-color: var(--cover-heading-color);
     --cover-button-border: 1px solid var(--cover-heading-color);
     --cover-background-image: radial-gradient(ellipse at center 115%, rgba(174, 54, 97, 0.5), transparent);
     --link-color: var(--theme-color);
+    --link-text-decoration: none;
+    --link-text-decoration--hover: underline;
   }
+
+  * { outline: none }
+
   .input, .button {
     border-radius: 4px!important;
     box-shadow: var(--cover-button-primary-box-shadow, var(--cover-button-box-shadow))!important;
@@ -75,9 +86,17 @@
       search: [
         '/',
         '/introduction',
+        '/overview',
         '/api',
         '/about'
       ],
+      tabs: {
+        persist    : true,
+        sync       : true,
+        theme      : 'classic',
+        tabComments: false,
+        tabHeadings: true
+      }
     }
   </script>
   <script src="_js/docsify.min.js"></script>
@@ -85,5 +104,6 @@
   <script src="_js/docsify-copy-code@2"></script>
   <script src="_js/search.min.js"></script>
   <script src="_js/emoji.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 </body>
 </html>

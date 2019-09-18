@@ -1,7 +1,7 @@
 
 ![logo](_media/cruxLogoWhite.png ':size=100%')
 
-# CRUX.RUN <small>v0.0.1 BETA</small>
+# CRUX.RUN <small>v1.0.0</small>
 
 > API Documentation
 
