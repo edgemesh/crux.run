@@ -1,11 +1,11 @@
 ### Test Like Google
 
 # What is CrUX?
-The Chrome User Experience Report (CrUX) provides real world, Real User Metrics gathered from the millions of Google Chrome users who load billions of websites (including yours) each month. It is this data that Google uses to determine how fast your website is and ultimately Search and Ad rankings for your website.
+The Chrome User Experience Report (CrUX) provides real world, Real User Metrics gathered from the millions of Google Chrome users who load billions of websites (including yours) each month. It is this data that Google uses to determine how fast your website is and ultimately, your Search and Ad rankings.
 
 Testing your website's speed with traditional audit platforms (GTmetrix, WebpageTest.org and Google Lighthouse) is a great way to help guide the development of your site and identify opportunities to improve performance before you go live. These _synthetic_ user metrics or _lab_ metrics provide deep, detailed analysis of page performance in a _controlled_ setting, but the Internet is a complicated place. Your website may not perform the same on every network, across every device, in every geography.
 
-In short, you need _real_ user metrics from real customers in the _field_  to understand the _actual_ page performance in the wild.
+In short, you need _real_ performance metrics from real users in the _field_ to understand the _actual_ page performance in the wild.
 See [common myths about performance](https://developers.google.com/web/fundamentals/performance/speed-tools/) from Google for more details.
 
 # Synthetic Page Tests
