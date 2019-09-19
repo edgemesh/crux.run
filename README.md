@@ -1,4 +1,6 @@
-# Getting Started
+<p align="center"><img height="100" src="/_media/cruxLogo.png" /></p>
+
+# CrUX Run API
 
 The crux API is built for simplicity.  Each route accepts the same set of query parameters.
 
