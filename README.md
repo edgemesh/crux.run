@@ -1,8 +1,7 @@
 <p align="center"><img height="100" src="/_media/cruxLogo.png" /></p>
+<h1 align="center">crux.run</h1>
 
-# CrUX Run API
-
-The crux API is built for simplicity.  Each route accepts the same set of query parameters.
+The crux.run API is built for simplicity.  Each route accepts the same set of query parameters.
 
 | Param  | Type    | Required | Description                                                                                                                                                  |
 |--------|---------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
